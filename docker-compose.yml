@@ -1,0 +1,13 @@
+services:
+    postgres:
+        image: postgres
+        container_name: postgres_django
+        ports: 
+            - '5490:5432'
+        expose: 
+            - '5490'    
+        environment: 
+            POSTGRES_USER: 'olist'
+            POSTGRES_PASSWORD: 'olist'
+            POSTGRES_DB: 'postgres'
+            
