@@ -83,7 +83,7 @@ DATABASES = {
         'USER': 'olist',
         'PASSWORD': 'olist',
         'HOST' : 'localhost',
-        'PORT' : '5490',
+        'PORT' : '5440',
     }
 }
 
